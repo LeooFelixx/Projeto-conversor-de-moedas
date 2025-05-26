@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(./assets/image-moedas.png);
+    background-color: #0c0c0c;
+   background-position: center;;
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 900;
+    background: linear-gradient(90deg, #772fd3 10%, #48985C 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 3px;
+    margin-bottom: 36px;
+    text-shadow: 0 4px 24px rgba(119, 47, 211, 0.18), 0 1px 0 #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    transition: letter-spacing 0.3s, text-shadow 0.3s;
+    user-select: none;
+}
+
+.logo {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    background: #F4F4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+
+    background-color: #48985C;  /* verde */
+    color: white;
+    padding: 15px 120px;
+    font-size: 16px;
+    border: black;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 12px #489A5Fd8; /* sombra inferior */
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+
+
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6
+}
+
+section {
+    border: 1px solid  #0c0c0c;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.currency-value,
+.currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency-box img {
+    width: 48px;
+    /* ou o tamanho desejado */
+    height: 48px;
+    /* ou o tamanho desejado */
+    object-fit: contain;
+    box-shadow: 0 4px 12px rgba(black, black, black, 0.15);
+
+}
+
+
+.escrita-converter {
+
+    font-size: 15px;
+    color: #0c0c0c;
+    padding: 10px;
+    border-radius: 10px;
+}
